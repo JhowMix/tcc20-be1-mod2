@@ -8,7 +8,7 @@ from passlib.context import CryptContext
 from pydantic import BaseModel
 from bson.json_util import dumps, loads
 
-from app.setting import database
+from setting import database
 
 # to get a string like this run:
 # openssl rand -hex 32

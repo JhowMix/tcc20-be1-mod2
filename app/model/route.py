@@ -1,4 +1,4 @@
-from src.model.network import Network
+from model.network import Network
 
 
 class Route:

@@ -4,7 +4,7 @@ from bson.json_util import dumps, loads
 from operator import is_not
 from functools import partial
 
-from app.setting import database
+from setting import database
 
 
 client = database.client['devices']

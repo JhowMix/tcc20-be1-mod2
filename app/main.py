@@ -3,7 +3,7 @@ import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.route import router, auth, snmp
+from route import router, auth, snmp
 
 app = FastAPI()
 origins = [

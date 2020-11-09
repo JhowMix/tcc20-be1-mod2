@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  be1:
+    build: .
+    command: bash -c "cd app && python3 main.py"
+    container_name: capybara_be1
+    ports:
+      - "8000:8000"
+    tty: true

@@ -1,4 +1,4 @@
-from app.model.address import Address
+from model.address import Address
 from datetime import date
 import json, requests
 
