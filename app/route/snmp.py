@@ -9,7 +9,7 @@ from pydantic import BaseModel
 router = APIRouter()
 headers = {"Content-Type", "application/json"}
 
-url = "http://172.20.0.221:3000/device/"
+url = "http://10.10.0.3:3000/device/"
 headers = {'content-type': 'application/json'}
 
 @router.post("/snmp/check")

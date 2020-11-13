@@ -7,7 +7,7 @@ from route import router, auth, snmp
 
 app = FastAPI()
 origins = [
-    "http://localhost:4200",
+    "http://10.10.0.4:3001",
 ]
 
 app.add_middleware(
